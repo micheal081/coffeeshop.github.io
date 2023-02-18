@@ -2295,6 +2295,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 768px) {
   .banner-area {
+    height: 720px !important;
     background: url(../img/header-bg.jpg);
     background-position: 50% 90% 50% 50%;
   }
@@ -2332,6 +2333,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 414px) {
   .banner-content h1 {
     font-size: 40px;
+  }
+
+  .banner-content {
+    margin-top: -250px !important;
+    height: 100px !important;
+  }
+
+  .video-sec-area .vid {
+    margin: 10px 10px 0px;
   }
 }
 
@@ -2565,6 +2575,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 991.98px) {
   .footer-social {
     text-align: left;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-area .social-widget {
+    margin-bottom: -100px !important;
   }
 }
 
